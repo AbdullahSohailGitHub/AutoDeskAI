@@ -1,6 +1,3 @@
-It looks like your code snippet got cut off right at the end of the styles inside your App component. Let's fix that, complete your CSS animations, and implement the rest of the ChatWidget, Dashboard, and other sub-components so this file builds and runs flawlessly when you deploy it to Vercel.
-Here is the complete, self-contained AutoDeskAI.jsx (or App.jsx) file. It contains the mock data engines, a stateful AI simulation engine that mimics smart automotive responses, an interactive customer-facing chatbot, and an analytics dashboard view.
-
 import React, { useState, useRef, useEffect } from "react";
 import {
   MessageCircle, X, Send, Car, Calendar, Wrench, RefreshCw, DollarSign,
